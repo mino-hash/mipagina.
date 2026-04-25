@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Negocio Pro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: linear-gradient(90deg, #1e3a8a, #9333ea);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #111827;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #a78bfa;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            color: #9ca3af;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #9333ea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #7e22ce;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .card {
+            background: #1f2937;
+            padding: 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            background: #374151;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111827;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mi Marca 🚀</h1>
+    <p>Tu negocio digital</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<section class="hero">
+    <h2>Haz crecer tu negocio</h2>
+    <p>Diseño web moderno, rápido y profesional</p>
+    <a href="#" class="btn">Empezar</a>
+</section>
+
+<section class="services">
+    <div class="card">
+        <h3>💻 Diseño Web</h3>
+        <p>Creación de páginas modernas y atractivas.</p>
+    </div>
+
+    <div class="card">
+        <h3>📱 Apps</h3>
+        <p>Desarrollo de aplicaciones móviles.</p>
+    </div>
+
+    <div class="card">
+        <h3>🚀 Marketing</h3>
+        <p>Estrategias para crecer en redes.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Mi Marca - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
